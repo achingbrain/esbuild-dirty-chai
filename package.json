@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-dirty-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle index.js --outdir=dist --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dirty-chai": "^2.0.1",
+    "esbuild": "^0.11.11"
+  }
+}
